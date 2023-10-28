@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Flower Delivery Website - Homepage
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="navbar-toggle">
+            <div id="left"><img src="menu.svg"> </div>
+            <div id="right"><img src="shopping_bag_FILL0_wght300_GRAD0_opsz24.svg"> </div>
+        </div>
+        <div id = "navbar">
+            <div id = "nav-menu-left">
+                <div onclick="shop()">Shop</div>
+                <div>Contact</div>
+            </div>
+            <div id = "nav-menu-right">
+                <div>Sign-in</div>
+                <div>Cart</div>
+            </div>
+        </div>
+
+        <div id = "main-section">
+            <div id = "left-column">
+                <div id = "row-1">
+                    <h1>Kyiv<br> LuxBouquets®</h1>
+                    <p>Discover Uniquely Crafted Bouquets and Gifts for Any Occasion:<br>
+                        Spread Joy with Our Online Flower Delivery Service</p>
+                </div>
+                
+                <div id = row-2>
+                    <div id = "decor-column-1">
+                        <img src = "img hero.png" id ="img">
+                    </div>
+                    <div id = "decor-column-2">
+                        Experience the joy of giving with our<br>
+                         modern floral studio. Order online and <br>
+                         send fresh flowers, plants and gifts<br>
+                          today.
+                    </div>
+                </div>
+            </div>
+            <div id = "right-column">
+                <div class = "content-category">
+                    <div class = "card-category">
+                        <div class = "label">Fresh Flowers</div>
+                        <button class = "text-icon-btn" onclick="fresh()">Shop Now <img src="arrow-right.png"></button>
+                    </div>
+                    <div class = "card-item"></div>
+                    <div class = "card-category">
+                        <div class = "label">Live Plants</div>
+                        <button class = "text-icon-btn" onclick="live()">Shop Now <img src="arrow-right.png"></button>
+                    </div>
+                    <div class = "card-item"></div>
+                    <div class = "card-category">
+                        <div class = "label">Freshners</div>
+                        <button class = "text-icon-btn" onclick="freshners()">Shop Now <img src="arrow-right.png"></button>
+                    </div>
+                </div>
+                <div class = "content-category">
+                    <div class = "card-item"></div>
+                    <div class = "card-category">
+                        <div class = "label">Dried flowers</div>
+                        <button class = "text-icon-btn" onclick="dry()">Shop Now <img src="arrow-right.png"></button>
+                    </div>
+                    <div class = "card-item"></div>
+                    <div class = "card-category">
+                        <div class = "label">Aroma candles</div>
+                        <button class = "text-icon-btn" onclick="aroma()">Shop Now <img src="arrow-right.png"></button>
+                    </div>
+                    <div class = "card-item"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "about-us">
+            <div class = "title">About Us</div>
+            <div class="wtv">
+                <div> OUR STORY</div>
+                <div>Kyiv LuxeBouquets</div>
+                <div>
+                    We are a modern local floral studio, which specializes in the design and<br>
+                     delivery of unique bouquets. We have the best florists who carefully select<br>
+                      each look, our studio cooperates directly with farms for growing different<br>
+                       flowers, so we always have fresh flowers, which are collected by our florists<br>
+                        in exquisite bouquets. We have a collection of fresh bouquets, collections<br>
+                        of dried bouquets, house plants, as well as fragrant candles from luxury<br>
+                        brands to create the perfect atmosphere. Make someone's day amazing<br>
+                        by sending flowers, plants and gifts the same or next day. Ordering flowers<br>
+                         online has never been easier.
+                </div>
+                <button onclick="about()">LEARN MORE</button>
+            </div>
+        </div>
+
+        <div id = "benefits">
+            <div class = "title">Why choose us?</div>
+            <div id="ben">
+                <div class = "benefit-block">
+                    <div >Stylish bouquets by florists</div>
+                    <div>
+                        At our floral studio, our professional florists craft the most elegant and stylish<br>
+                         bouquets using only the freshest and highest quality materials available. We <br>
+                        stay up-to-date with the latest floral design trends and offer unique<br>
+                         arrangements that are sure to impress. Let us brighten up your day with our <br>
+                        stunning bouquets and same-day delivery service.
+                    </div>
+                </div>
+                <div class = "benefit-block">
+                    <div>On-time delivery</div>
+                    <div>
+                        Never miss a moment with our on-time flower delivery service. Our couriers <br>
+                        will deliver your bouquet personally, without boxes, to ensure it arrives in<br>
+                         perfect condition. Trust us to deliver your thoughtful gift reliably.
+                    </div>
+                </div>
+                <div class = "benefit-block">
+                    <div>Safe payment</div>
+                    <div>You can feel secure when placing an order with us, as we use industry-<br>
+                        standard security measures to protect your payment information. Your <br>
+                        transaction will be safe and hassle-free, so you can shop with confidence.
+                    </div>
+                </div>
+                <div class = "benefit-block">
+                    <div> Subscription by your needs</div>
+                    <div>
+                        With our subscription service tailored to your specific needs, you can enjoy<br>
+                        the convenience of having beautiful bouquets delivered straight to your<br>
+                        door at regular intervals. Our flexible service is perfect for busy individuals or<br>
+                        those who want to ensure they always have fresh flowers on hand. You'll save<br>
+                        time and money with this hassle-free solution to your floral needs.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "contact-section">
+            <div id = "left-col">
+                <div id = "top-block">
+                    <div id = "contact">To contact us</div>
+                    <div id = "form-block">
+                        <div>We will call you back</div>
+                        <div>
+                            <input type="text" placeholder="+380 XX XXX XX XX" id = "ip">
+                            <button id = "book" onclick="call()">BOOK A CALL</button>
+                            <p id="num"></p>
+                        </div>
+                    </div>
+                </div>
+                <div id = "bottom-block">
+                    <div id = "first-block">
+                        <div class = "label">Phone</div>
+                        <div id = "phonenumber-btns">
+                            <button><img src = "vector.png">+380980099777</button>
+                            <button><img src = "vector.png">+380980099111</button>
+                        </div>
+                    </div>
+                    <div id = "second-block">
+                        <div class = "label">Address</div>
+                        <div id ="hehe">
+                            opening hours: 8 to 11 p.m.
+                            <button id = "location"><img src = "pin_drop.png">15/4 Khreshchatyk Street, Kyiv </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id = "right-col">
+                <div class = "shop"></div>
+                <div id = "r">
+                    <div class = "label">Follow us</div>
+                    <div id = "socials">
+                        <a href="#"><img src = "ig.png"></a>
+                        <a href="#"><img src = "pinterest.png"></a>
+                        <a href="#"><img src = "fb.png"></a>
+                        <a href="#"><img src = "Vector.png"></a>
+                        <a href="#"><img src = "tele.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "service-section" class="label">
+            Our Service
+        </div>
+
+        <div id = "section-service">
+            <img src = "service.png">
+            <div id="service">
+                <div>Service</div>
+                <div>Flower Subscriptions</div>
+                <div>
+                    Experience the convenience and savings of regular flower deliveries <br>
+                    with our flexible subscription service - up to 30% more profitable<br>
+                    than one-time purchases.
+                </div>
+                <button>Subscribe Now</button>
+            </div>
+        </div>
+
+        <div id = "service-section-2">
+            <div>service</div>
+            <div>Wedding & Event Decor</div>
+            <div>
+                Let our team of expert florists and designers create stunning, on-trend<br>
+                 floral décor for your special day. Trust us to bring your vision to life.
+            </div>
+            <button id="inquire-btn">Inquire now</button>
+        </div>
+
+        <div id = "reviews-section">
+            <div id = "content">
+                <img src = "google logo.png">
+                <div id="review">reviews</div>
+                <div>Our Clients say</div>
+                <div id ="sliders">
+                    <img src = "left arrow.png">
+                    <div>
+                        “Ordered flowers online and they were the best bouquet! Impressed everyone around.<br>
+                         Highly recommend this flower shop!”<br>
+                        <spam id="name"> – Ronald Richards</spam>
+                    </div>
+                    <img src = "right arrow.png">
+                </div>
+                <button>READ REVIEWS</button>
+            </div>
+            <div id = "footer">
+                <div class = "wrap-footer">
+                    <div>
+                        Remember to offer beautiful flowers<br>
+                         from Kyiv LuxeBouquets Valentines<br>
+                          Day, Mothers Day, Christmas<br>
+                          ... Reminds you 7 days before. No spam<br>
+                           or sharing your address
+                    </div>
+                    <div id = "form-2">
+                        <input type="text" placeholder ="Your email" id="mail">
+                        <button id="remind" onclick="remind()">Remind</button>
+                        <p id="remind-para"></p>
+                    </div>
+                </div>
+                <div class = "wrap-footer">
+                    <div>Contact us</div>
+                    <div class = "link-heading">Address</div>
+                    <a href="#" class = "link-sub">15/4 Khreshchatyk Street, Kyiv </a>
+                    <div class="link-heading">Phone</div>
+                    <a href = "#" class="link-sub">+380980099777</a>
+                    <div class = "link-heading">General Enquiry:</div>
+                    <a href = "#" class = "link-sub">Kiev.Florist.Studio@gmail.com</a>
+                    <div id = "social">
+                        <div class="link-heading">Follow us</div>
+                        <div>
+                            <a href="#"><img src = "ig.png"></a>
+                            <a href="#"><img src = "pinterest.png"></a>
+                            <a href="#"><img src = "fb.png"></a>
+                            <a href="#"><img src = "Vector.png"></a>
+                            <a href="#"><img src = "tele.png"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class = "wrap-footer">
+                    <div class="link-heading">Shop</div>
+                    <a href="shop.html">All products</a>
+                    <a href="fresh.html">Fresh flowers</a>
+                    <a href="dried.html">Dried flowers</a>
+                    <a href="live.html">Live plants</a>
+                    <a href="aroma.html">Aroma candles</a>
+                    <a href="freshner.html">Freshner diffuser</a>
+                    <div class="link-heading">Service</div>
+                    <a href="#">Flower subscription</a>
+                    <a href="#">Wedding and event decor</a>
+                </div>
+                <div class = "wrap-footer">
+                    <div class="link-heading">About us</div>
+                    <a href="#">Our story</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Shipping and returns</a>
+                    <a href="#">Terms and conditions</a>
+                    <a href="#">Privacy policy</a>
+                    
+                </div>
+            </div>
+        </div>
+        <script src ="index.js"></script>
+    </body>
+</html>
